@@ -1,0 +1,40 @@
+/*-----incia footer Mobile-----*/
+.pie{
+	background: $footerBackground;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: space-around;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	 div{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-items: space-around;
+		h3{
+			color: white;
+			font-size: 1.8rem;
+		}
+		h4{
+			color: white;
+			font-size: 1.4rem;
+		}
+		div{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+		}		
+	}
+}
+
+.redes{
+	padding: 1rem auto;
+	color: white;
+	font-size: 6rem;
+	background-color: transparent;
+	border: none;
+}
+
+

@@ -1,0 +1,81 @@
+/*-----incia contenido principal servicios Mobile-----*/
+.servicios{
+	background-color: $backgroundBotonera;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.servicios section{
+ 	width: 100%;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+}
+
+.servicios section article{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.servicios section article div{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.servicios section article div img{
+	width: 95%;
+	padding: 1.5rem;
+}
+
+.servicios section article div p{
+	width: 90%;
+
+}
+
+.servicios section article div div img{
+	width: 100%;
+}
+
+.servicios section article div div p{
+	width: 90%;
+}
+
+.diseño__form{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	cursor: text;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 4rem;	
+}
+
+.style{
+	display: block;
+	width: 32rem;
+	height: 4rem;
+	padding: 1rem;
+	border-style: solid;
+	border-width: 1px;	
+	border-color: $ColorStyle;
+	background-color: $backgroundStyle;	
+}
+
+.redondeado{
+	width: 32rem;
+	margin-top: 2rem;
+	padding: 0.4rem;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(32, 33, 36, .1);
+	background-color: $redondeadoBackground;	
+}

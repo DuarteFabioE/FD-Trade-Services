@@ -1,0 +1,50 @@
+/*-----inicia encabezado Mobile-----*/
+.encabezado{
+	background-image: $background-image;
+	div{
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		h4{
+			width: 100%;
+			margin-top: 20rem;
+			margin-bottom: 0rem;
+			padding: 1rem;
+			color: $backgroundBotonera;
+			background-color: $backgroundColor;
+			text-align: center;
+		}
+	}
+}
+
+.botonera{
+	background-color: $backgroundBotonera;
+	width: 100vw;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.4rem;
+	img{
+		display: flex;
+		flex-direction: column;	
+		justify-content: space-evenly;
+		align-items: center;
+		width: 15rem;
+	}
+	ul{
+		justify-content: space-evenly;
+		align-items: center;
+		list-style: none;
+		font-weight: 800;
+		li a:hover{
+			font-weight: 600;
+		}
+	}
+}
+
+.hamburger-style{
+	border: none;
+	text-align: left;	
+}
