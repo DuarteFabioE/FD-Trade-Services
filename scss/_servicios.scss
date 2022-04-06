@@ -1,31 +1,19 @@
 /*-----incia contenido principal servicios Mobile-----*/
+
 .servicios{
-	background-color: $backgroundBotonera;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+@extend .contPrincipal;
 }
 
 .servicios section{
- 	width: 100%;
- 	display: flex;
- 	flex-direction: column;
- 	align-items: center;
+ 	@include sections (100%, column, center);
 }
 
 .servicios section article{
-	width: 90%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	@include sections (90%, column, center);
 }
 
 .servicios section article div{
-	width: 90%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	@include sections (90%, column, center);
 }
 
 .servicios section article div img{
@@ -79,3 +67,6 @@
 	border-color: rgba(32, 33, 36, .1);
 	background-color: $redondeadoBackground;	
 }
+
+
+

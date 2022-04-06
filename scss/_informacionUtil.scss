@@ -1,11 +1,7 @@
 /*-----incia contenido principal Informacion Util Mobile-----*/
 
 .informacionUtil{
-	background-color: $backgroundBotonera;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@extend .contPrincipal;
 }
 
 .incoterms{
