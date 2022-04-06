@@ -1,18 +1,11 @@
 /*-----incia contenido principal Contacto Mobile-----*/
 
 .contacto{
-	background-color: $backgroundBotonera;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	@extend .contPrincipal;
 }
 
 .contacto section{
-		width: 90%;
-		display:flex;
-		flex-direction: column;
-		align-items: center;
+		@include sections (90%, column, center);
 		justify-content: space-around;
 	}
 
@@ -28,3 +21,4 @@
 	width: 30rem; 
 	height: 30rem;
 }
+

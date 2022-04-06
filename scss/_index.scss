@@ -1,18 +1,11 @@
 /*-----incia contenido principal nosotros Mobile-----*/
 .nosotros{
-	background-color: $backgroundBotonera;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	@extend .contPrincipal;
 }
 	
 
 	.nosotros section{
-		width: 90%;
-		display:flex;
-		flex-direction: column;
-		align-items: center;
+		@include sections (90%, column, center);
 		justify-content: space-around;
 	}
 
@@ -35,5 +28,6 @@
 	.nosotros section article p{
 		font-size: 1.5rem;
 	}
+
 
 	
