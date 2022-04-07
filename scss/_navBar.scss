@@ -11,15 +11,15 @@
 			margin-top: 20rem;
 			margin-bottom: 0rem;
 			padding: 1rem;
-			color: $backgroundBotonera;
-			background-color: $backgroundColor;
+			color: map-get( $map:$paleta,$key:'dos');
+			background-color: map-get( $map:$paleta,$key:'tres');
 			text-align: center;
 		}
 	}
 }
 
 .botonera{
-	background-color: $backgroundBotonera;
+	background-color: map-get( $map:$paleta,$key:'dos');;
 	width: 100vw;
 	position: sticky;
 	top: 0;

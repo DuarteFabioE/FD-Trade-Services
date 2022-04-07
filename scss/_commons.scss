@@ -47,7 +47,7 @@ h4{
 
 //Extend
 .contPrincipal{
-	background-color: rgba(253, 253, 253, 1);
+	background-color: map-get($map:$paleta,$key:'dos');
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -60,6 +60,11 @@ h4{
 	width: $width;
 	flex-direction: $flex-direction;
 	align-items:$align-items; 	
+}
+
+@mixin textFooter($color, $size) {
+	color: $color;
+	font-size:$size; 	
 }
 
 /* ----------- animaciones ----------- */

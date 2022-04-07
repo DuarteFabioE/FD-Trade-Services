@@ -14,12 +14,10 @@
 		align-items: center;
 		justify-items: space-around;
 		h3{
-			color: white;
-			font-size: 1.8rem;
+			@include textFooter (white, 1.8rem);
 		}
 		h4{
-			color: white;
-			font-size: 1.4rem;
+			@include textFooter (white, 1.4rem);
 		}
 		div{
 			display: flex;
@@ -30,11 +28,11 @@
 }
 
 .redes{
+	@include textFooter (white, 6rem);
 	padding: 1rem auto;
-	color: white;
-	font-size: 6rem;
 	background-color: transparent;
 	border: none;
 }
+
 
 
