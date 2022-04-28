@@ -45,6 +45,26 @@ h4{
 	font-weight: 400;
 }
 
+$background-image: url(../img/contenedores2-1.jpg);
+$backgroundBotonera: rgba(253, 253, 253, 1);
+$backgroundColor: rgba(16, 69, 79, .9);
+$ColorStyle: rgba(9, 105, 121, .3);
+$backgroundStyle: rgba(9, 105, 121, .1);
+$redondeadoColor: rgba(32, 33, 36, .1);
+$redondeadoBackground: rgba(9, 105, 121, .4);
+$footerBackground: rgba(16, 69, 79, 1);
+
+$paleta:(
+	'uno': url(../img/contenedores2-1.jpg), 
+	'dos': rgba(253, 253, 253, 1),
+	'tres':rgba(16, 69, 79, .9),
+	'cuatro': rgba(9, 105, 121, .3),
+	'cinco': rgba(9, 105, 121, .1),
+	'seis': rgba(32, 33, 36, .1),
+	'siete': rgba(9, 105, 121, .4),
+	'ocho': rgba(16, 69, 79, 1),
+	);
+
 //Extend
 .contPrincipal{
 	background-color: map-get($map:$paleta,$key:'dos');
@@ -121,26 +141,3 @@ h4{
 #footer{
 	grid-area: footer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

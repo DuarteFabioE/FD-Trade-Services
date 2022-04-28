@@ -23,15 +23,18 @@
 
 .servicios section article div p{
 	width: 90%;
+	font-size: 1.5rem;
 
 }
 
 .servicios section article div div img{
 	width: 100%;
+
 }
 
 .servicios section article div div p{
 	width: 90%;
+	font-size: 1.5rem;
 }
 
 .diseño__form{
@@ -67,6 +70,3 @@
 	border-color: map-get( $map:$paleta,$key:'seis');
 	background-color: map-get( $map:$paleta,$key:'siete');	
 }
-
-
-
